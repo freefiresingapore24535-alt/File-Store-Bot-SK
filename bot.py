@@ -52,15 +52,15 @@ class Bot(Client):
         self.reply_text = messages.get('REPLY', 'Do not send any useless message in the bot.')
         self.mongodb = MongoDB(db_uri, db_name)
         self.req_channels = []
-        self.db_channels = {}  # Initialize DB channels dictionary
-        self.primary_db_channel = db  # Set initial primary DB channel
+        self.db_channels = {}  # Preparing an empty dictionary to store all database channel information
+        self.primary_db_channel = db  # Assign the initial primary database channel
     
     async def start(self):
         await super().start()
         usr_bot_me = await self.get_me()
         self.uptime = datetime.now()
         
-        # Load fsub channels from static config first
+        # First, load all FSUB channels defined in the static configuration
         if len(self.fsub) > 0:
             for channel in self.fsub:
                 try:
@@ -73,7 +73,7 @@ class Bot(Client):
                         chat_link = await self.create_chat_invite_link(channel[0], creates_join_request=channel[1])
                         link = chat_link.invite_link
                     if not channel[1]:
-                        self.fsub_dict[channel[0]] = [name, link, False, 0]
+                        sel naf.fsub_dict[channel[0]] = [name, link, False, 0]
                     if channel[1]:
                         self.fsub_dict[channel[0]] = [name, link, True, 0]
                         self.req_channels.append(channel[0])
