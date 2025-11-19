@@ -28,11 +28,11 @@ API_HASH = ""
 WORKERS = 5
 
 # mongo db
-DB_URI = "mongodb+srv://chidrajeya_db_user:cBHc7ry8u7R5IldG@cluster0.xggspfy.mongodb.net/?appName=Cluster0"
+DB_URI = "mongodb+srv://Rei061:Rei061@cluster0.pmn26.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "zoro"
 
 # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
-FSUBS = [-1001926236146, True, 10]
+FSUBS = [[-1001926236146, True, 10]]
 # Database Channel (Primary)
 DB_CHANNEL = -1002998057898,
 # Multiple Database Channels (can be set via bot settings)
