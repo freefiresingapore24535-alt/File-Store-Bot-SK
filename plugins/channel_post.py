@@ -1,3 +1,8 @@
+# ───────────────────────────────────────────
+#   (©) TECH ZORO TAMIL — PREMIUM MODULE
+#   Channel Post Handler • Do Not Remove
+# ──────────────────────────────────────────
+
 import asyncio
 from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
@@ -52,5 +57,6 @@ async def new_post(client: Client, message: Message):
         print(e)
 
         pass
+
 
 
