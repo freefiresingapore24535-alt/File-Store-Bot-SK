@@ -1,3 +1,5 @@
+# (©) Tech Zoro Tamil — Database Core Module
+
 import motor.motor_asyncio
 from datetime import datetime, timedelta
 
