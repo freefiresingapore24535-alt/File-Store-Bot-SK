@@ -1,3 +1,8 @@
+# ───────────────────────────────────────────
+#   (©) TECH ZORO TAMIL — FORCE SUB MODULE
+#   Handles Join Requests & FSUB Validation
+# ───────────────────────────────────────────
+
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, Message, InlineKeyboardButton, InlineKeyboardMarkup
 from helper.helper_func import is_bot_admin
@@ -103,3 +108,4 @@ async def rm_fsub(client: Client, query: CallbackQuery):
         return await ask_channel_info.reply(f"__Channel with id: `{channel_id}` has been removed as a force sub channel!!__")
     except Exception as e:
         return await ask_channel_info.reply(f"**Error:** `{e}`")
+
