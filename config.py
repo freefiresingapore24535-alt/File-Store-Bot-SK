@@ -1,3 +1,8 @@
+# ───────────────────────────────────────────
+#   (©) TECH ZORO TAMIL — OFFICIAL BOT
+#   Credits Must Stay • Thank You ♥
+# ───────────────────────────────────────────
+
 import logging
 from logging.handlers import RotatingFileHandler
 
