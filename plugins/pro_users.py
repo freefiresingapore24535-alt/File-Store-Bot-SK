@@ -1,4 +1,4 @@
-#SahilxCodes
+#zoroxCodes
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
@@ -156,4 +156,5 @@ async def admin_list_command(client: Client, message: Message):
         )
     else:
         await message.reply_text("<b>No premium users found.</b>")
+
 
