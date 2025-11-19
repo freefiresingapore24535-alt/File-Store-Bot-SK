@@ -22,7 +22,7 @@ SHORT_TUT = "https://t.me/+fuhw3bZ97NgxMzE1"
 
 # Bot Configuration
 SESSION = "Zoro"
-TOKEN = "642712"
+TOKEN = ""
 API_ID = ""
 API_HASH = ""
 WORKERS = 5
@@ -34,19 +34,19 @@ DB_NAME = "zoro"
 # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 FSUBS = [-1001926236146, True, 10]
 # Database Channel (Primary)
-DB_CHANNEL =-1002998057898
+DB_CHANNEL = -1002998057898,
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
 #     "-1001234567890": {"name": "Secondary DB", "is_primary": False, "is_active": True}
 # }
 # Auto Delete Timer (seconds)
-AUTO_DEL = 300
+AUTO_DEL = 300,
 # Admin IDs
 ADMINS = [6587671439]
 # Bot Settings
-DISABLE_BTN = True
-PROTECT = False
+DISABLE_BTN = True,
+PROTECT = False,
 
 # Messages Configuration
 MESSAGES = {
