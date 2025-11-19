@@ -1,3 +1,7 @@
+# ───────────────────────────────────────────
+#   🚀 MAIN LAUNCHER (TECH ZORO TAMIL)
+#   Premium • Clean • Fast Boot Handler
+# ───────────────────────────────────────────
 
 import asyncio
 from bot import Bot, web_app
@@ -7,7 +11,7 @@ from config import *
 async def main():
     app = []
 
-    # Create bot instance using config.py values
+    # Initialize bot using config values
     app.append(
         Bot(
             SESSION,
