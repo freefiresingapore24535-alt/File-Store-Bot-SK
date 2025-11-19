@@ -169,7 +169,7 @@ MESSAGES = {
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[zoro](https://t.me/Techzorotamil)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/rinoffi) </b>
+- <b>[Zᴏʀᴏ](https://t.me/Techzorotamil)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/rinoffi) </b>
 - <b>[Zᴏʀᴏ](https://t.me/Techzorotamil)  ➻  [ʙᴀsᴇ ʀᴇᴘᴏ](https://github.com/ArihantSharma/FileStoreBot) </b>
 
 <h3 align="center">
@@ -185,6 +185,7 @@ MESSAGES = {
 
 
 ━━━━━━━━━━━━━━━━━━━━
+
 
 
 
