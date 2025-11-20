@@ -22,9 +22,9 @@ SHORT_TUT = "https://t.me/+fuhw3bZ97NgxMzE1"
 
 # Bot Configuration
 SESSION = "Zoro"
-TOKEN = "642712"
-API_ID = ""
-API_HASH = ""
+TOKEN = "8464041039:AAGedshGG6eJ_yA1h8nFPYKPrS-5U22Ko5o"
+API_ID = "22128383"
+API_HASH = "7992b5c5c9c6d34276c3dce9e46ba879"
 WORKERS = 5
 
 # mongo db
