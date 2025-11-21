@@ -73,7 +73,7 @@ class Bot(Client):
                         chat_link = await self.create_chat_invite_link(channel[0], creates_join_request=channel[1])
                         link = chat_link.invite_link
                     if not channel[1]:
-                        sel naf.fsub_dict[channel[0]] = [name, link, False, 0]
+                        self.fsub_dict[channel[0]] = [name, link, False, 0]
                     if channel[1]:
                         self.fsub_dict[channel[0]] = [name, link, True, 0]
                         self.req_channels.append(channel[0])
