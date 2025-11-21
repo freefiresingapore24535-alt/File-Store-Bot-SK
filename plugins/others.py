@@ -185,7 +185,7 @@ async def quick_add_db(client: Client, message: Message):
     # Verify bot can access the channel
     try:
         chat = await client.get_chat(channel_id)
-        test_msg = await client.send_message(chat_id=channel_id, text="ᴛᴇsᴛɪɴɢ ᴅʙ ᴄʜᴀɴɴᴇʟ ᴀᴄᴄᴇss - @Okabe_xRintarou")
+        test_msg = await client.send_message(chat_id=channel_id, text="ᴛᴇsᴛɪɴɢ ᴅʙ ᴄʜᴀɴɴᴇʟ ᴀᴄᴄᴇss - @Minato_Sencie")
         await test_msg.delete()
         
         # Add channel to database
@@ -380,4 +380,5 @@ async def unban(client: Client, message: Message):
         return await message.reply(f"**Error:** `{e}`")
 
 #==========================================================================#                
+
 
