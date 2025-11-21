@@ -57,7 +57,7 @@ async def start_command(client: Client, message: Message):
 
             short_photo = client.messages.get("SHORT_PIC", "")
             short_caption = client.messages.get("SHORT_MSG", "")
-            tutorial_link = getattr(client, 'tutorial_link', "https://t.me/How_to_Download_7x/26")
+            tutorial_link = getattr(client, 'tutorial_link', "https://t.me/Naruto_backup_1/9")
 
             await client.send_photo(
                 chat_id=message.chat.id,
@@ -65,11 +65,11 @@ async def start_command(client: Client, message: Message):
                 caption=short_caption,
                 reply_markup=InlineKeyboardMarkup([
                     [
-                        InlineKeyboardButton("• ᴏᴘᴇɴ ʟɪɴᴋ", url=short_link),
-                        InlineKeyboardButton("ᴛᴜᴛᴏʀɪᴀʟ •", url=tutorial_link)
+                        InlineKeyboardButton("• ᴏᴘᴇɴ ʟɪɴᴋ •", url=short_link),
+                        InlineKeyboardButton("• ᴛᴜᴛᴏʀɪᴀʟ •", url=tutorial_link)
                     ],
                     [
-                        InlineKeyboardButton(" • ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/Premium_Fliix/21")
+                        InlineKeyboardButton(" • ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/Minato_Sencie")
                     ]
                 ])
             )
@@ -253,7 +253,8 @@ async def start_command(client: Client, message: Message):
 
     # 9. Normal start message
     else:
-        buttons = [[InlineKeyboardButton("Help", callback_data="about"), InlineKeyboardButton("Close", callback_data='close')]]
+        buttons = [[InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"), InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data='close'),
+                   InlineKeyboardButton("• ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/Minato_Sencie")]]
         if user_id in client.admins:
             buttons.insert(0, [InlineKeyboardButton("⛩️ ꜱᴇᴛᴛɪɴɢꜱ ⛩️", callback_data="settings")])
 
