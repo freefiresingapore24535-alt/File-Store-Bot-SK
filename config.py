@@ -22,9 +22,9 @@ SHORT_TUT = "" #enter your tutorial video link
 
 # Bot Configuration
 SESSION = "Remo"
-TOKEN = "8190176915:AAHNtjR7NXwydqmVPt0lJ2zvjNitmvgIKoE" #enter your bot token 
-API_ID = "22128383" #enter your api id
-API_HASH = "7992b5c5c9c6d34276c3dce9e46ba879" #enter your api hash
+TOKEN = "" #enter your bot token 
+API_ID = "" #enter your api id
+API_HASH = "" #enter your api hash
 WORKERS = 5
 
 # mongo db
