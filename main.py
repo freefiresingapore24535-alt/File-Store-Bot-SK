@@ -1,11 +1,17 @@
+# ───────────────────────────────────────────
+#   🚀 MAIN LAUNCHER (TECH ZORO TAMIL)
+#   Premium • Clean • Fast Boot Handler
+# ───────────────────────────────────────────
+
 import asyncio
 from bot import Bot, web_app
-from pyrogram import compose, idle
+from pyrogram import compose
 from config import *
 
 async def main():
     app = []
 
+    # Initialize bot using config values
     app.append(
         Bot(
             SESSION,
@@ -26,7 +32,6 @@ async def main():
     )
 
     await compose(app)
-    await idle()     # <-- Keeps the bot running forever
 
 
 async def runner():
