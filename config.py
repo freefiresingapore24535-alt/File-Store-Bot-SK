@@ -22,7 +22,7 @@ SHORT_TUT = "https://t.me/+fuhw3bZ97NgxMzE1"
 
 # Bot Configuration
 SESSION = "Zoro"
-TOKEN = "8464041039:AAFauMT9Fy_Z5QPoSdoP2Aib67rl-jWH5fk"
+TOKEN = "8464041039:AAER0Ef7fRvHn8Du-F7zJOe5IgM50ckrjto"
 API_ID = "22128383"
 API_HASH = "7992b5c5c9c6d34276c3dce9e46ba879"
 WORKERS = 5
