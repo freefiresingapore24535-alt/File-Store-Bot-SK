@@ -301,9 +301,9 @@ async def request_command(client: Client, message: Message):
         return
 
     if not is_user_premium: 
-        BUTTON_URL = "https://t.me/hanime_arena/5"
+        BUTTON_URL = "https://t.me/Minato_Sencie"
         reply_markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton("💎 Upgrade to Premium", url=BUTTON_URL)]
+            [InlineKeyboardButton("Upgrade to Premium💎", url=BUTTON_URL)]
         ])
         await message.reply(
             "❌ **You are not a premium user.**\nUpgrade to premium to access this feature.",
