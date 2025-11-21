@@ -253,12 +253,12 @@ async def start_command(client: Client, message: Message):
 
     # 9. Normal start message
     else:
-        buttons = ([
+        buttons = [
             [InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"), 
              InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data='close')
             ], [InlineKeyboardButton("• ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/Minato_Sencie")
                ]
-        ])
+        ]
         if user_id in client.admins:
             buttons.insert(0, [InlineKeyboardButton("⛩️ ꜱᴇᴛᴛɪɴɢꜱ ⛩️", callback_data="settings")])
 
