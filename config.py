@@ -21,15 +21,15 @@ SHORT_API = "" #enter your shortner api
 SHORT_TUT = "" #enter your tutorial video link
 
 # Bot Configuration
-SESSION = "Zoro"
-TOKEN = "" #enter your bot token 
-API_ID = "" #enter your api id
-API_HASH = "" #enter your api hash
+SESSION = "Remo"
+TOKEN = "8190176915:AAHNtjR7NXwydqmVPt0lJ2zvjNitmvgIKoE" #enter your bot token 
+API_ID = "22128383" #enter your api id
+API_HASH = "7992b5c5c9c6d34276c3dce9e46ba879" #enter your api hash
 WORKERS = 5
 
 # mongo db
 DB_URI = "mongodb+srv://Rei061:Rei061@cluster0.pmn26.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DB_NAME = "zoro"
+DB_NAME = "Remo"
 
 # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 FSUBS = [[-1001926236146, True, 10]]
