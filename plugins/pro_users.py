@@ -41,7 +41,7 @@ async def add_admin_command(client: Client, message: Message):
         return await message.reply_text("Only Owner can use this command...!")
 
     usage = """<b>Usage:</b> 
-/addpremium <userid> [duration]
+/addpremium [userid] [duration]
 
 <b>Examples:</b>
 • /addpremium 123456 1 day
@@ -156,5 +156,6 @@ async def admin_list_command(client: Client, message: Message):
         )
     else:
         await message.reply_text("<b>No premium users found.</b>")
+
 
 
