@@ -13,3 +13,5 @@ markdown
 asyncio
 TgCrypto
 requests
+shortzy
+pytz
